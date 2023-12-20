@@ -1,0 +1,36 @@
+*{
+    margin: none;
+}
+body{
+    background-color: rgb(206, 206, 206);
+}
+.picture{
+    margin: 0px 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.items{
+    background-color: aliceblue;
+    padding: 20px;
+}
+
+img{
+    width: 100%;
+}
+
+h1{
+    text-align: center;
+    font-size: 80px;
+}
+
+@media screen and (max-width: 566px){
+    .picture{
+        margin: 0px 10px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    h1{
+        font-size: 15px;
+    }
+}
